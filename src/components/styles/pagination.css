@@ -1,0 +1,13 @@
+#center-display-items {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+}
+li > a {
+  color: #fff;
+  font-weight: bold;
+}
